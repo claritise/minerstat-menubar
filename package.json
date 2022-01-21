@@ -1,0 +1,29 @@
+{
+  "name": "minerstat-menubar",
+  "version": "1.0.0",
+  "description": "menubar application to monitor minerstat",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claritise/minerstat-menubar.git"
+  },
+  "author": "@claritise (annayienzhang.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claritise/minerstat-menubar/issues"
+  },
+  "homepage": "https://github.com/claritise/minerstat-menubar#readme",
+  "dependencies": {
+    "menubar": "^9.1.1",
+    "yarn": "^1.22.17"
+  },
+  "devDependencies": {
+    "electron": "^16.0.7"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}
